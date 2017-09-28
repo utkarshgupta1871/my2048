@@ -1,0 +1,62 @@
+.cell{
+	width: 10vh;
+	height: 10vh;
+	background-color: #ef8564;
+	display: inline-block;margin: 0px;padding: 0px;
+	text-align: center;
+	vertical-align:middle;
+}
+
+.row{
+	display: flex; 
+	
+	justify-content: space-between;
+	margin: 0px;padding: 0px;
+	display: inline-block;
+	position: relative;
+	left:1vh;
+}
+
+.grid{
+	display: flex;
+	flex-direction: column;
+	height: 43vh;
+	width: 44vh; 
+	justify-content: space-between;
+	position: absolute;
+	left: 37vw;
+	top: 30vh;
+	background-color: yellow;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+    font-size: 5em;
+    margin: 0px;
+    width: 44vh;
+    left: 37vw;
+    display: inline-block;
+    position: absolute;
+}
+#Game{
+text-align: center;
+    font-size: 2em;
+    margin: 0px;
+    width: 44vh;
+    left: 37vw;
+    top: 80vh;
+    display: inline-block;
+    position: absolute;	
+}
+#New-Game{
+text-align: center;
+    font-size: 2em;
+    margin: 0px;
+    width: 44vh;
+    left: 37vw;
+    top: 90vh;
+    display: inline-block;
+    position: absolute;	
+    background-color: black;
+    color: white;
+}
